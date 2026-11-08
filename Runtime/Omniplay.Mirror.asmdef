@@ -1,0 +1,19 @@
+{
+    "name": "Omniplay.Mirror",
+    "rootNamespace": "Omniplay.Mirror",
+    "references": [
+        "Omniplay",
+        "Mirror"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "MIRROR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

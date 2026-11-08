@@ -1,0 +1,20 @@
+{
+  "name": "io.omniplay.mirror",
+  "version": "0.1.0",
+  "displayName": "Omniplay for Mirror",
+  "description": "omnisense/omniplay inside a Unity server running Mirror: a NetworkAuthenticator that lets a client in when the ticket it sends first holds for this server (once), and the server's heartbeat to the application. Runs on omniplay/dotnet; compiled only where Mirror is (its MIRROR define).",
+  "unity": "2021.3",
+  "dependencies": {
+    "io.omniplay.dotnet": "0.1.0"
+  },
+  "author": {
+    "name": "Marco Meyer",
+    "email": "marco.meyer@glitchr.io"
+  },
+  "license": "MIT",
+  "keywords": ["omniplay", "mirror", "multiplayer", "authenticator", "ticket", "heartbeat"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glitchr-omnisense/omniplay-mirror.git"
+  }
+}
