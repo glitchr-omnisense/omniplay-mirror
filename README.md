@@ -43,6 +43,16 @@ second's dependency (Unity resolves no Git dependency of a package by itself):
 "io.omniplay.mirror": "https://github.com/glitchr-omnisense/omniplay-mirror.git#1.x"
 ```
 
+## With Mirror's Steam transport
+
+The authenticator does not depend on the transport: the ticket is Mirror's first message whatever
+carries it. With a Steam transport (FizzySteamworks over Steamworks.NET, a community transport),
+clients connect through Steam's relay to a SteamID rather than to an IP and a port: the client's
+`networkAddress` is then the server's SteamID, which the server gives as its address
+(`Registration`), or which the lobby's metadata carries beside the ticket (omniplay/steam's README:
+lobbies stay in the game). The player's own Steam identity is verified by the platform before the
+seat, with omniplay/steam. Not verified, and no code here for it.
+
 ## Verified, and not
 
 - Verified (2026-11-08): the package's sources compiled with omniplay/dotnet's, against Unity
