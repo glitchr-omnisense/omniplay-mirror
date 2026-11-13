@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## [Unreleased]
+
+## [0.1.0] - 2026-11-13
 
 ### Added
 - `io.omniplay.mirror`, assembly `Omniplay.Mirror` (only under Mirror's `MIRROR` define):
