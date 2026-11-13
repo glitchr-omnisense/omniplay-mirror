@@ -1,0 +1,20 @@
+{
+    "name": "Omniplay.Mirror.Samples",
+    "rootNamespace": "",
+    "references": [
+        "Omniplay",
+        "Omniplay.Mirror",
+        "Mirror"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "MIRROR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
